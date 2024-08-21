@@ -651,7 +651,6 @@ button a {
     text-align: center;
     background-color: rgb(245, 243, 243);
     box-sizing: border-box;
-    margin-left:;
 }
 .box3:hover{
     transform: scale(1.1);
@@ -682,7 +681,6 @@ button a {
 .icon {
   position: relative;
   display: block;
-  vertical-align: top;
   overflow-x: hidden;
   overflow-y: hidden;
   width: 3rem;
