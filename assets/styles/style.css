@@ -607,12 +607,19 @@ button a {
   margin-top: 0.5rem;
 }
 
-.title2 {
-  color: gray;
-  font-weight: bold;
-  font-family: Play;
-  justify-content: center;
-  text-align: center;
+
+
+.title2{
+    color: gray;
+    font-weight: bold;
+    font-family: Play;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.title3{
+    margin-bottom: 1rem;
 }
 
 .box1 {
@@ -623,41 +630,53 @@ button a {
   background-color: rgb(245, 243, 243);
   box-sizing: border-box;
 }
-
-.box2 {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 1rem;
-  text-align: center;
-  background-color: rgb(245, 243, 243);
-  box-sizing: border-box;
+.box1:hover{
+    transform: scale(1.1);
 }
-
-.box3 {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 1rem;
-  text-align: center;
-  background-color: rgb(245, 243, 243);
-  box-sizing: border-box;
+.box2{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+    box-sizing: border-box;
 }
-
-.box4 {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 1rem;
-  text-align: center;
-  background-color: rgb(245, 243, 243);
-  box-sizing: border-box;
+.box2:hover{
+    transform: scale(1.1);
 }
-
-.box5 {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 1rem;
-  text-align: center;
-  background-color: rgb(245, 243, 243);
-  box-sizing: border-box;
+.box3{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+    box-sizing: border-box;
+    margin-left:;
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.box4{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+    box-sizing: border-box;
+}
+.box4:hover{
+    transform: scale(1.1);
+}
+.box5{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+    box-sizing: border-box;
+}
+.box5:hover{
+    transform: scale(1.1);
 }
 
 .icon {
@@ -677,17 +696,18 @@ button a {
   margin-top: 0.6rem;
 }
 
-.circle {
-  position: relative;
-  -webkit-box-align: center;
-  display: flex;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 2.5rem;
-  align-items: center;
-  justify-content: center;
-  background-color: #3c58c1;
-  margin-top: 3rem;
+.circle{
+    position: relative;
+    -webkit-box-align: center;
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #3c58c1;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .rect {
